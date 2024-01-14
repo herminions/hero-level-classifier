@@ -17,7 +17,7 @@ if(heroXP <= 1000){
     console.log("O herói de nome " + heroName + " está no nível " + levels[5] )
 } else if(heroXP <= 10000){
     console.log("O herói de nome " + heroName + " está no nível " + levels[6] )
-} else if(heroXP > 10000){
+} else{
     console.log("O herói de nome " + heroName + " está no nível " + levels[7] )
 }
 }
